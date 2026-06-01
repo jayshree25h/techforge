@@ -37,6 +37,7 @@ The is the Intermediate ~~CMD~~
 - **Binary & port management:** `lsof -i :8080`, `ss -plnt | grep 8080`
 - **Automation & CI helpers:** `git rev-parse --abbrev-ref HEAD`, `git log --oneline -n 5`, `ssh -i ~/.ssh/id_rsa user@host`, `scp -r build/ user@host:/opt/`
 
+This is Short
 ## Short examples & tips
 - Check HTTP endpoint availability: `curl -fsS -o /dev/null -w "%{http_code}\n" http://localhost:8080`
 - Follow logs across a fleet (example): `ssh host1 'journalctl -u service -f' | grep ERROR`
