@@ -10,6 +10,8 @@ This file will cover fundamental Linux commands commonly used by developers and 
 - **Processes:** `ps aux | grep name`, `top` / `htop` (interactive)
 - **System info:** `uname -a`, `whoami`, `uptime`, `hostname`
 
+The is the Intermediate CMD
+
 ## Intermediate Commands (scripting & troubleshooting)
 - **Search & text processing:** `grep -R "pattern" .`, `awk '{print $1}' file`, `sed -n '1,20p' file`
 - **Find & act:** `find / -type f -name '*.log' -mtime -7 -print`, `find . -exec rm {} \;` (use carefully)
